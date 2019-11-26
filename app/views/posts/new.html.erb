@@ -2,8 +2,9 @@
   <label>Post title:</label><br>
   <%= f.text_field :title %><br>
 
-  <label>Post Description</label><br>
-  <%= f.text_area :description %><br>
-
+  <br>
+<label>Description:</label>
+<br>
+<input type="text" value="malicious description" name="post[description]" id="post_description">
   <%= f.submit %>
 <% end %>
